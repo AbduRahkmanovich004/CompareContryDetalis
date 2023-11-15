@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 40.5%;
+}
+
+body {
+    zoom: 0.9;
+    background: rgb(147, 147, 147)
+}
+
+nav .container {
+    text-align: center;
+}
+
+nav h1 {
+    font-size: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4rem;
+}
+
+main {
+    width: 100%;
+}
+
+.container {
+    margin: 0 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main>div div {
+    display: flex;
+    border: 1px solid reds;
+    width: 100%;
+    gap: 2rem;
+}
+
+select {
+    width: 100%;
+}
+
+div .container {
+    display: flex;
+    gap: 4rem;
+}
+
+main .selector {
+    width: 90%;
+    border-radius: 2rem;
+    background: #8b8b8b;
+    padding: 1rem;
+}
+
+.selector div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+button{
+    padding: 0 1rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+}
+
+select,
+input {
+    background: transparent;
+    text-align: center;
+    border: none;
+    outline: none;
+    display: inline-block;
+    background: #dcdada30;
+    height: 3rem;
+    border-radius: 1rem;
+}
+.joylar {
+    justify-content: space-evenly;
+    margin: 5rem 0;
+}
+
+.aside {
+    width: 40%;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    gap: 2rem;
+    background-size: cover;
+    background-color: rgba(173, 173, 173, 0.623) !important;
+    border-radius: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: 0.1rem 0.1rem 0.3rem rgb(66, 65, 65);
+}
+
+aside img {
+    width: 100%;
+    border-radius: 2rem 2rem 0 0;
+    height: 30rem;
+}
+
+aside>div {
+    display: flex;
+}
+
+aside h2,
+aside div {
+    margin: 0 2rem;
+}
+
+.inputArea {
+    display: flex !important;
+}
+aside>h3{
+    font-size: 3rem;
+    padding: 2rem;
+}
+input{
+    display: inline-block;
+    width: 9rem;
+}
+select+.inp{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width:800px) {
+    html {
+        font-size: 40%;
+    }
+}
+@media (max-width:600px) {
+    html {
+        font-size: 40%;
+    }
+    main{
+        font-size: 70% !important;
+    }
+    .selector>div{
+        gap: 7rem;
+        margin: 7rem 0;
+    }
+}
+@media (max-width:430px) {
+    html {
+        font-size:30%;
+    }
+}
